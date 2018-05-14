@@ -54,7 +54,7 @@ public class quickSort {
 		if (newPivotIndex - left > 1)
 			quickSortRec(arr, left, newPivotIndex -1);
 		if (right - newPivotIndex > 1)
-			quickSortRec(arr, newPivotIndex, right);
+			quickSortRec(arr, newPivotIndex +1, right);
 	}
 
 
